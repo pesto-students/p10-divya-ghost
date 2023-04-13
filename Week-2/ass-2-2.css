@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+
+  .container:hover .red-box {
+    transform: rotate(90deg);
+  }
+
+.red-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: red;
+    transform-origin: top left;
+    transition-duration: 0.5s;
+}
+
+.container:hover .blue-box {
+    transform: rotate(90deg);
+  }
+
+.blue-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: blue;
+}
+
+.green-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: green;
+}
+
+.yellow-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: yellow;
+}
