@@ -74,6 +74,19 @@ p {
   text-align: justify;
 }
 
+.p-fs {
+  font-size: 24px;
+}
+
+.p-margin {
+  margin-right: 15px;
+}
+
 hr {
   border-color: black;
+}
+
+.img {
+  width: 45vw;
+  height: 200px;
 }
